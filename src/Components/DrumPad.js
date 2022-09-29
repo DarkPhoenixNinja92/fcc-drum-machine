@@ -1,6 +1,4 @@
 import Keypad from "./Keypad";
-import { SoundBank } from "../Utilities/SoundBank";
-import RenderDescription from "./RenderDescription";
 
 const DrumPad = () => {
     return (

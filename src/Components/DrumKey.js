@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const DrumKey = (props) =>  {
 
     const playAudio = (e) => {
@@ -6,6 +8,15 @@ const DrumKey = (props) =>  {
             audio.play();
         }
     }
+
+    useEffect(() => {
+        document.addEventListener('keydown', (event) => {
+            if(event.code === `Key${props.audio.keyTrigger}`) {
+            let audio = document.getElementById(props.audio.keyTrigger);
+            audio.play();
+            }
+        }, []);
+    })
 
     return (
         <button className="drum-pad" id="heater-1" onClick={playAudio}>{props.audio.keyTrigger}
