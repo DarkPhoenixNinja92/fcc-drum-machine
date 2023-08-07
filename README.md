@@ -1,5 +1,1 @@
-NOTE: The live preview on github pages does not currently work. If you still want to see the project in action then please download the repository, then unzip the file and either open the folder in your command line application or open  it with a code editor that has built in command line and then enter the following command to start a local preview: `npm start`.
-
-I am working on getting the GH Pages version functional and will update this readme as soon as I have done so.
-
-Thank you.
+My Drum Kit project for FreeCodeCamp's Front End Development Libraries Certification. Displays a grid of buttons with letters and plays a sound when the button is pressed - either onscreen or on the user's keyboard. Click [here](https://darkphoenixninja92.github.io/fcc-drum-machine/) to visit the live site. 
